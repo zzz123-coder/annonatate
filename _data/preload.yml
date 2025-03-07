@@ -1,3 +1,9 @@
-images: []
+images:
+- added: '2025-03-07 16:23:51.455539'
+  iiif: true
+  thumbnail: https://luna.manchester.ac.uk/luna/servlet/iiif/lib1~1~1~282000~298873/full/!1024,1024/0/default.jpg
+  title: Unknown
+  url: https://luna.manchester.ac.uk/luna/servlet/iiif/m/lib1~1~1~282000~298873/manifest
+  user: zzz123-coder
 settings: {}
 version: '2.1'
