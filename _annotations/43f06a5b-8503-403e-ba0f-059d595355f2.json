@@ -14,6 +14,17 @@ order: 1
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "1"
+        },
+        {
+            "type": "TextualBody",
+            "value": "bulk",
+            "purpose": "commenting",
+            "creator": {
+                "id": "zzz123-coder",
+                "name": "zzz123-coder"
+            },
+            "created": "2025-04-19T13:46:54.359Z",
+            "modified": "2025-04-19T13:46:54.865Z"
         }
     ],
     "id": "43f06a5b-8503-403e-ba0f-059d595355f2.json",
