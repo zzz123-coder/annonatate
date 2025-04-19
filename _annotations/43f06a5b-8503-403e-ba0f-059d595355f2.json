@@ -4,20 +4,26 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "1",
-            "purpose": "commenting",
+            "created": "2025-03-07T16:30:00.628Z",
             "creator": {
                 "id": "zzz123-coder",
                 "name": "zzz123-coder"
             },
-            "created": "2025-03-07T16:30:00.628Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "1"
         }
     ],
+    "id": "43f06a5b-8503-403e-ba0f-059d595355f2.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=860.25830078125,2762.35888671875,1229.962646484375,1360.19384765625"
+        },
         "source": {
             "partOf": {
                 "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/lib1~1~1~282000~298873/manifest",
@@ -25,13 +31,7 @@ order: 1
             },
             "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/lib1~1~1~282000~298873/canvas/c1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=860.25830078125,2762.35888671875,1229.962646484375,1360.19384765625"
         }
     },
-    "id": "43f06a5b-8503-403e-ba0f-059d595355f2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
